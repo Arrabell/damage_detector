@@ -14,7 +14,7 @@ if uploaded_file:
     st.image(image, caption="Завантажене зображення", use_container_width=True)
     st.write("Виконується аналіз...")
     preds = predict(image)
-    st.write(preds)
+    # st.write(preds)
     data = []
     new_text = preds['class']
     text_ = str(new_text[3:])
