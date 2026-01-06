@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Модели и данные (если есть)
+models/
+data/
+*.pkl
+*.model
+
+# Кэш transformers/huggingface
+.cache/
+.huggingface/
+
+# Логи
+*.log
