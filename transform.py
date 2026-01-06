@@ -6,7 +6,7 @@ import cv2
 import random
 import glob
 
-dataset_path = 'C:/Users/admin/Desktop/homework8/dataset/data1a'
+dataset_path = '../dataset/data1a'
 def prepare_classification_dataset(input_path, output_path):
 
     for split in ['train', 'val']:
