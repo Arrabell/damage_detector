@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 from PIL import Image
 
-model = YOLO('C:/Users/admin/Desktop/homework8/runs/classify/train5/weights/best.pt')
+model = YOLO('../runs/classify/train5/weights/best.pt')
 
 def predict(image: Image):
     results = model(image, task='classify')
