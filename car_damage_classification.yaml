@@ -1,0 +1,11 @@
+
+# car_damage_classification.yaml
+path: car_damage_classification/
+train: train/
+val: val/
+
+# Количество классов
+nc: 2
+
+# Имена классов
+names: ['damage', 'whole']
